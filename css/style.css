@@ -1,0 +1,267 @@
+
+*{
+ margin: 0;
+ padding: 0;
+
+ }
+ 
+body{
+background-color: white;
+  
+}
+
+/*-----------------
+   Loader Works
+--------------------*/
+#myLoader{
+height: 80px;
+width: 80px;
+border-radius: 100%;
+border-top: 7px solid purple;
+border-bottom: 7px solid purple;
+border-left: 7px solid white;
+border-right: 7px solid white;
+animation-name: Hb;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay:1s;
+margin-top: 50%;
+margin-left: 30%;
+
+}
+
+@keyframes Hb{
+0%{
+transform: rotate(30deg);
+   }
+25%{
+transform: rotate(120deg);
+  }
+  
+50%{
+  transform: rotate(180deg);
+  }
+  
+75%{
+  transform: rotate(260deg);
+  }
+100%{
+  transform: rotate(320deg);
+  }
+   
+ }
+ 
+ 
+/*-----------------
+  Loader Works End
+--------------------*/
+ .Header_Status{
+ background-color: darkgrey;
+ height: 40px;
+ width: 100%;
+ 
+ 
+  }
+  
+ .Menu_Bar{
+  float: right;
+  position: relative;
+  left: -10px;
+  bottom: 9px;
+  
+  
+  }
+  
+.Menu_Button{
+ height: 20px; 
+ width: 50px;
+ font-weight: bold;
+ 
+ 
+  }
+  
+ ul li{
+  list-style: none;
+  
+ }
+ ul li a{
+  text-decoration: none;
+  
+  }
+  
+.Main_Card{
+ background-image: radial-gradient(purple 10%, blue 30%, green 20%, darkblue, whitesmoke);
+ height: 100%;
+ width: 100%;
+ overflow: auto;
+ position: fixed;
+  
+ }
+ 
+ 
+ .List_Items{
+  height: 50px;
+  width: 80%;
+  background: rgba(180,120,99,0.2);
+  border: 1px solid skyblue;
+  color: skyblue;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 10%;
+  margin-bottom: 8px;
+  
+ 
+  }
+ 
+ .List_Items:hover{
+  border: 1px solid grey;
+ 
+ }
+ 
+ .Subject_Of_Nabi{
+  background-image: radial-gradient(purple 10%, blue 30%, green 10%, purple, ghostwhite);
+  color: white;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  
+ }
+ 
+.Subject_Control{
+ padding: 10px 10px;
+ margin-top: 40px;
+ 
+ }
+ 
+ .Subject_Button{
+  height: 50px;
+  width: 80%;
+  background: rgba(180,120,99,0.2);
+  border: none;
+  border-top: 1px solid tomato;
+  border-bottom: 1px solid skyblue;
+  border-left: 5px solid skyblue;
+  border-right: 5px solid tomato;
+  color: skyblue;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 10%;
+  margin-bottom: 8px;
+  
+  }
+ 
+ .Back_Btn{
+  font-weight: bold;
+  background-color: darkgrey;
+  border: none;
+  color: white;
+  position: relative;
+  left: 10px;
+  top: 8px;
+  
+ }
+ 
+ .Subject_Status{
+  height: 40px; 
+  width: 100%;
+  background: darkgrey;
+  position: fixed;
+ 
+  }
+ 
+ .Subject_P{
+  text-align: center;
+  margin-top: -10px;
+ 
+ }
+ 
+ 
+ /*--------------------
+     Details Works
+ ----------------------*/
+ .Details_Of_Nabi{
+  background-image: radial-gradient(purple 10%, blue 30%, gray 10%, green, grey);
+  color: whitesmoke;
+  height: 480px;
+  width: 100%;
+ 
+ }
+ 
+ .Details_Control{
+  height: 460px;
+  width: 96%;
+  margin-top: 40px;
+  margin-left: 2%;
+  padding-top: 6px;
+  overflow: auto;
+  
+ }
+ 
+ .EdrisDetails_Control{
+  height: 460px;
+  width: 96%;
+  margin-top: 0px;
+  margin-left: 2%;
+  padding-top: 6px;
+  overflow: auto;
+ 
+ }
+ 
+ .Details_Status{
+  height: 40px; 
+  width: 100%;
+  background: darkgrey;
+  color: purple;
+  position: fixed;
+  top: 0px;
+ 
+ }
+ 
+ .Details_P{
+  text-align: center;
+  margin-top: -10px;
+ 
+ }
+ 
+.Details_Button{
+ font-weight: bold;
+ background-color: darkgrey;
+ border: none;
+ color: purple;
+ position: relative;
+ left: 10px;
+ top: 8px;
+ 
+ }
+ 
+ .Slider{
+  height: 155px;
+  width: 150px;
+  background-color: ghostwhite;
+  text-align: center;
+  position: relative;
+  left: 155px;
+  display: none;
+ 
+  }
+.Slider_A{
+ background-color: pink;
+ color: green;
+ padding: 0px 10px;
+ 
+
+ }
+ 
+ .Slider_Ul{
+  position: relative;
+  top: 10px;
+ 
+   }
+   
+ li{
+  margin-top: 10px;
+  
+  }
+ 
